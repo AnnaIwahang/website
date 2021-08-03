@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta hhtp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+
+        <a href="#" class="logo">Flower<span>.</span></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+<section class="contact" id="contact">
+    <h1 class="heading"> <span> contact </span> us </h1>
+    
+    <div class="row">
+        
+        <form action="contact.html" onsubmit="return validate()" name="f1">
+            <span id="error_msg"></span>
+            <input type="text" placeholder="name" name="txtName" class="box">
+            <input type="email" placeholder="email" name="txtEmail" class="box">
+            <input type="text" placeholder="number" name= "txtNumber" class="box">
+            <textarea name="txtMsg" class="box" placeholder="message" cols="30" rows="10"></textarea>
+         
+            <input type="submit" value="send message" class="btn">
+
+        </form>
+        <div class="image">
+            <img src="flowers/fshop.jpeg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favourite</a>
+        </div>
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Nepal</a>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">France</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+025-522-662</a>
+            <a href="#">mumbai, India - 234564</a>
+            <a href="#">flower@gmail.com</a>
+            <img src="flowers/payment.jpg" alt="">
+        </div>
+    </div>
+    <div class="credit"> created by <span> anna.web designer</span> | all rights reserved 
+    </div>
+</section>
+<script src="main.js" async></script>
+</body>
+
+</html>
