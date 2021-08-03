@@ -111,7 +111,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(/Users/anna/Documents/Project-HTML/flowers/bg.jpeg) no-repeat;
+    background: url(flowers/bg.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
 }
